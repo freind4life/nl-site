@@ -87,33 +87,45 @@ a {
 
 #discord #b2:hover {
     background-color: white;
-    color: black;
+    color: white;
 }
 
-#article {
-    margin: auto;
+#container {
+    background-color: rgb(15, 15, 59);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
     text-align: center;
+    height: 700px;
 }
 
-#article #title {
-    margin: auto;
+#nvimage {
+    float: left;
+    padding: 50px;
+}
+
+#nvtext {
     text-align: center;
-    width: 100%;
-    align-items: center;
-    display: inline;
+    margin-left: 300px;
+    margin-top: 500px;
+    padding-top: 200px;
+    padding-bottom: 175px;
+    font-size: 20px;
+    color: white;
 }
 
-#article #container {
-    margin-left: 12%;
-    margin-right: 12%;
+#b3 {
+    background-color: transparent;
+    border:1px solid white;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s all ease;
+}
+
+#b3:hover {
     background-color: white;
-    width: 75%;
-    height: 100%;
-    position: fixed;
-}
-
-#article #noveltitle {
     color: black;
-    font-weight: 300;
 }
-
