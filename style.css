@@ -89,3 +89,31 @@ a {
     background-color: white;
     color: black;
 }
+
+#article {
+    margin: auto;
+    text-align: center;
+}
+
+#article #title {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    display: inline;
+}
+
+#article #container {
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    position: fixed;
+}
+
+#article #noveltitle {
+    color: black;
+    font-weight: 300;
+}
+
