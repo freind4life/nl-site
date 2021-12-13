@@ -61,3 +61,31 @@ a {
     background-color: white;
     color: black;
 }
+
+#discord {
+    margin: auto;
+    width: 100%;
+    padding-top: 15%;
+    text-align: center;
+    height: 100%;
+    font-size: 32px;
+}
+
+#discord #b2 {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    transition: 1s all ease;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+#discord #b2:hover {
+    background-color: white;
+    color: black;
+}
