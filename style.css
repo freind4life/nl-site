@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2019/10/23/cool--wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 8px;
+    display: inline;
+    color: white;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li { 
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#title {
+    margin: auto;
+    width: 100%;
+    padding-top: 15%;
+    text-align: center;
+    height: 100%;
+    font-size: 32px;
+}
+
+#title #b1 {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    transition: 1s all ease;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+#title #b1:hover {
+    background-color: white;
+    color: black;
+}
